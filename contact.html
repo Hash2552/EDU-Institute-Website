@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EDU Institute</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">EDU <span>Institute</span></a>
+            <div class="mobile-menu-btn">☰</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <div class="dropdown">
+                    <a href="#">Courses ▾</a>
+                    <div class="dropdown-content">
+                        <a href="ol-level.html">Ordinary Level</a>
+                        <a href="al-level.html">Advanced Level</a>
+                        <a href="short-courses.html">Short Courses</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="active cta-btn">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="background-color: var(--primary-color); padding: 3rem 0; text-align: center; color: var(--white);">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for more information.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info & Map -->
+    <section class="container">
+        <div class="grid">
+            <div class="contact-form-container card" style="padding: 2rem;">
+                <h3 style="margin-bottom: 1.5rem;">Send us a message</h3>
+                <form action="#" method="POST" class="contact-form">
+                    <div style="margin-bottom: 1rem;">
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; color: #475569;">Full
+                            Name</label>
+                        <input type="text" id="name" name="name"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: var(--radius-md);"
+                            required>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; color: #475569;">Email
+                            Address</label>
+                        <input type="email" id="email" name="email"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: var(--radius-md);"
+                            required>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label for="subject"
+                            style="display: block; margin-bottom: 0.5rem; color: #475569;">Subject</label>
+                        <select id="subject" name="subject"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: var(--radius-md);">
+                            <option value="General">General Inquiry</option>
+                            <option value="OL">O/L Classes</option>
+                            <option value="AL">A/L Classes</option>
+                            <option value="Short">Short Courses</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label for="message"
+                            style="display: block; margin-bottom: 0.5rem; color: #475569;">Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #cbd5e1; border-radius: var(--radius-md);"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn" style="width: 100%; border: none; cursor: pointer;">Send
+                        Message</button>
+                </form>
+            </div>
+            <div class="contact-info card" style="padding: 2rem;">
+                <h3 style="margin-bottom: 1.5rem;">Contact Information</h3>
+                <div style="margin-bottom: 1.5rem;">
+                    <h5 style="color: var(--primary-color);">Address</h5>
+                    <p style="color: #64748b;">123 Education Lane,<br>Colombo 03, Sri Lanka</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h5 style="color: var(--primary-color);">Phone</h5>
+                    <p style="color: #64748b;">+94 77 123 4567<br>+94 11 234 5678</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h5 style="color: var(--primary-color);">Email</h5>
+                    <p style="color: #64748b;">info@eduinstitute.lk<br>admissions@eduinstitute.lk</p>
+                </div>
+                <!-- Google Maps Placeholder -->
+                <div class="map-container"
+                    style="width: 100%; height: 200px; background-color: #e2e8f0; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;">
+                    <p style="color: #64748b;">[Google Maps Location]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo" style="color: var(--white); margin-bottom: 1rem; display: block;">EDU
+                    <span>Institute</span></a>
+                <p>Leading the way in Sri Lankan education excellence.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul class="footer-links">
+                    <li><a href="ol-level.html">O/L Classes</a></li>
+                    <li><a href="al-level.html">A/L Classes</a></li>
+                    <li><a href="short-courses.html">Short Courses</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li>123 Education Lane, Colombo 03</li>
+                    <li>+94 77 123 4567</li>
+                    <li>info@eduinstitute.lk</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            &copy; 2026 EDU Institute. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
